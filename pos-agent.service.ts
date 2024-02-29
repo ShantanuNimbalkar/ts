@@ -1,3 +1,4 @@
+
 import { data } from 'jquery';
 import { HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
@@ -17,6 +18,7 @@ export class PosAgentService {
         private rootCommonService: CommonService,
         private _AESEncryptDecryptService: AESEncryptDecryptService
     ) {
+
 
     }
 
