@@ -12,6 +12,7 @@ System.out.println("Connection established......");
 //Registering the Driver
 Connection con;
 
+try{}catch(Exception e){}
 try{
 con = DriverManager.getConnection(mysqlUrl, "root", "password");
 Statement stmt = con.createStatement(); {
