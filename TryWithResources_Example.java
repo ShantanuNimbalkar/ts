@@ -11,6 +11,7 @@ String mysqlUrl = "jdbc:mysql://localhost/mydatabase";
 System.out.println("Connection established......");
 //Registering the Driver
 Connection con;
+System.out.println("Connection established......");
 
 try{}catch(Exception e){}
 
